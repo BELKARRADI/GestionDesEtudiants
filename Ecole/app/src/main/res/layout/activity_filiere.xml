@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FiliereActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:fontFamily="@font/monstserrat"
+            android:layout_marginStart="40dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code :"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="68dp"
+            android:contentDescription="Nom de la filiere"/>
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="68dp"
+            android:contentDescription="Code de la filiere"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:fontFamily="@font/monstserrat"
+            android:layout_marginStart="40dp"
+
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <EditText
+            android:id="@+id/mdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="152dp"
+            android:contentDescription="Nom de la filiere"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/submitFiliere"
+            android:layout_width="154dp"
+            android:layout_height="46dp"
+            android:text="Envoyer"
+            android:translationX="20dp" />
+
+        <Button
+            android:id="@+id/AffichageFilieres"
+            android:layout_width="154dp"
+            android:layout_height="46dp"
+            android:text="Filieres"
+            android:translationX="60dp" />
+    </LinearLayout>
+</LinearLayout>
