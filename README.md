@@ -35,7 +35,7 @@ Pour accéder à la documentation Swagger de cette API, suivez ces étapes :
   <li></li>
 </ul>
 Swagger facilite la compréhension de votre API par les développeurs et accélère le processus de test et de débogage. 
-Veillez à documenter clairement vos points de terminaison pour en tirer le meilleur parti.
+Veillez à documenter clairement vos points de terminaison pour en tirer le meilleur parti.<br>
 Voici les différentes méthodes PUT, GET, POST et DELETE proposées par l'API.
 <img width="960" alt="Capture d'écran 2023-11-06 154521" src="https://github.com/BELKARRADI/GestionDesEtudiants/assets/125222396/f223a00c-cd1b-4b2d-ad0c-1ba25c7e305a">
 <img width="960" alt="Capture d'écran 2023-11-06 154535" src="https://github.com/BELKARRADI/GestionDesEtudiants/assets/125222396/c600d562-fa8c-466b-8a15-932dc9a816b1">
@@ -47,7 +47,7 @@ Voici un exemple de test de certaines méthodes :
 
 
 
-## Test et Documentation
+## Video demo
 Dans cette vidéo, vous pourrez voir en action les fonctionnalités clés de l'application mobile.
 https://github.com/BELKARRADI/GestionDesEtudiants/assets/125222396/e15d9bf3-3201-4f15-b032-6d43d40cbfdd
 
